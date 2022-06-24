@@ -555,6 +555,8 @@ i{
     color: var(--text-color-primary);
     font-size: var(--i-step-0);
     transition: .5s;
+    border: 2px solid var(--text-color-primary);
+    padding: .3rem;
 
 }
 
