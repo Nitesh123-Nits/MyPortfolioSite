@@ -730,7 +730,12 @@ i{
     
         font-size: 3.5rem;
     }
-  
+  .footer-sec{
+    background: unset;
+  }
+  .github-link{
+    background-image: unset;
+  }
   
 }
 @media (max-width:715px){
@@ -775,6 +780,7 @@ i{
 .mail a{
    display: none;
 }
+
 
 } 
 @media (hover: hover) {
