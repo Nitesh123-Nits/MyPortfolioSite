@@ -515,6 +515,7 @@ figcaption{
     width: 100%;
     left:0px;
     z-index: 23;
+    
     background-image: linear-gradient(to right,#31ff31 ,#bf07f2,#00bb00,#bf09d3);
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -539,9 +540,10 @@ figcaption{
       }
 }
 .footer-sec {
-    background-image: radial-gradient(currentColor .5px, transparent .5px), radial-gradient(currentColor .5px, transparent .5px);
+    background-image:radial-gradient(currentColor .5px, transparent .5px), radial-gradient(currentColor .3px, transparent .2px);
     background-size: calc(20 * .5px) calc(20 * .5px);
-    background-position: 0 0, calc(10 * .5px) calc(10 * .5px)
+    background-position: 0 0, calc(10 * .5px) calc(10 * .5px);
+ 
 }
 
 .footer-sec ul{
