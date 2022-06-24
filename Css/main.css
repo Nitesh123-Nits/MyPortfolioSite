@@ -469,21 +469,25 @@ figcaption{
     border: 1px solid var(--text-color-primary);
 }
 .repo-link-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-}
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-inline: .2rem;
+  
+}
 .github-link{
     text-align: center;
-    padding: .3rem .8rem;
-    display: block;
-    margin: 1.5rem auto;
+    padding: .3rem .6rem;
+   
+    display: inline-block;
     color: #242323;
     font-size: var(--github-link);
     font-weight: 700;
     border: 3px solid var(--border-c);
     transition: .3s;
-    margin-bottom: 1rem;
     background-image: radial-gradient(currentColor .5px, transparent .6px), radial-gradient(currentColor .5px, transparent .5px);
     background-size: calc(20 * .5px) calc(20 * .5px);
     background-position: 0 0, calc(10 * .5px) calc(10 * .5px)
@@ -765,8 +769,8 @@ i{
     border: 0px;
 }
 .github-link{
-    font-size: 1rem;
-    font-weight: 900;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 .mail a{
    display: none;
@@ -789,7 +793,7 @@ i{
         outline: 3px dashed  var(--border-c);
         outline-offset: 4px;
         border: 0;
-        transform: rotateZ(10deg);
+        transform: rotateZ(7deg);
     }
  
     
