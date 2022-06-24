@@ -569,9 +569,7 @@ i{
     place-content: center;
   
 }
-.aboutme p{
 
-}
 .aboutme h2{
  font-size: var(--step-0);
  position: relative;
@@ -607,6 +605,7 @@ i{
     color: #6d07f2;
 
 }
+
 .mail{
     position: fixed;
     bottom: 30vh;
@@ -733,6 +732,9 @@ i{
 @media (max-width:715px){
     .container{
         padding: var(--padding-3);
+    }
+    .footer-sec strong p{
+    font-size: .6rem;
     }
 }
 /* 320px — 480px: Mobile devices */
