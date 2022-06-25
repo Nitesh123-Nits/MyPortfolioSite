@@ -9,6 +9,7 @@
 }
 
 :root{
+    
      --bg-color:#fefefe;
      --text-color-primary:#000000;
      --text-color-secondary:#000000;
@@ -714,6 +715,10 @@ i{
     .project-container{
         grid-template-columns: repeat(2,minmax(310px,1fr));
     }
+    .mail a{
+        display: none;
+     }
+     
 }
 
 /* 769px — 1024px: Small screens, laptops */
@@ -734,7 +739,7 @@ i{
         font-size: 3.5rem;
     }
   .footer-sec{
-    background: unset;
+    background-image: unset;
   }
   .github-link{
     background-image: unset;
@@ -779,9 +784,6 @@ i{
 .github-link{
     font-size: 0.9rem;
     font-weight: 700;
-}
-.mail a{
-   display: none;
 }
 
 
