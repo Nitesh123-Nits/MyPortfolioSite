@@ -1,5 +1,5 @@
-const ham = document.querySelector(".hamburger");
-const navbar = document.querySelector(".navbar");
+const ham = document.querySelector(".hamburger"),
+	navbar = document.querySelector(".navbar");
 ham.addEventListener("click", (() => {
 	navbar.classList.toggle("display")
 })), window.addEventListener("scroll", (() => {
@@ -26,10 +26,3 @@ const imgs = document.querySelectorAll("img"),
 		})).observe(e)
 	};
 imgs.forEach(lazyLoad);
-const autoprefixer = require("autoprefixer"),
-	postcss = require("postcss");
-postcss([autoprefixer]).process(css).then((e => {
-	e.warnings().forEach((e => {
-		console.warn(e.toString())
-	})), console.log(e.css)
-}));
