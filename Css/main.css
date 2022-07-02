@@ -435,6 +435,7 @@ li{
       box-shadow: 3px 3px var(--box-shadow-card);
       color: var(--text-color-secondary);
       overflow: hidden;
+      height: auto;
 
       
 }
@@ -453,6 +454,7 @@ figcaption{
 
 
 .project-container img{
+
     width: 100%;
     height: auto;
     display: block;
@@ -617,14 +619,17 @@ i{
 
 .mail{
     position: fixed;
-    bottom: 30vh;
+    bottom: 45vh;
     right: .3rem;
+    font-size: .9rem;
 }
+
 .mail a{
     writing-mode: vertical-rl;
     position: relative;
     cursor:pointer;
 }
+
 
 /* .aboutme li{
     writing-mode: vertical-lr;
