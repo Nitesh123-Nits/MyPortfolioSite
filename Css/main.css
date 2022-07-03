@@ -800,7 +800,7 @@ i{
     .navbar__item:hover::after {
         width: 100%;
     }
-    i:hover{
+    i:is(:hover,:focus){
         color: var(--i-color);
         transform: rotate(360deg);
     }
@@ -808,12 +808,17 @@ i{
         opacity: .8;
     }
   
-    .github-link:hover{
+    .github-link:is(:hover,:focus){
         outline: 3px dashed  var(--border-c);
         outline-offset: 4px;
        
         transform: rotateZ(7deg);
     }
+    /* .github-link:focus{
+           outline: 2px solid var(--text-color-primary);
+           outline-offset: 2px;
+    } */
+      
  
     
     }
@@ -831,7 +836,7 @@ i{
         .navbar__item:hover::after {
             width:initial;
         }
-        .github-link::is(:hover,:focus){
+        .github-link:is(:hover,:focus){
             outline: none;
             
             transform: none;
