@@ -16,15 +16,9 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" media="all">
    <link rel="stylesheet" href="./Css/main.css" >
    <body>
-      <div class="hamburger"><span></span><span></span><span></span></div>
-      <div class="theme-switch-wrapper">
-         <span class="toggler-text">Switch Mode</span><span class="arrow">&#10551;</span>
-         <label class="theme-switch" for="checkbox">
-            <input type="checkbox" tabindex="-1" id="checkbox">
-            <div class="slider round"></div>
-         </label>
-      </div>
+      
       <header class="navbar__container">
+         <div class="hamburger"><span></span><span></span><span></span></div>
          <div class="logo__wrapper"><a href="#" class="logo-text" tabindex="-1" alt="navigation logo/or main logo">&#8501;&#237;&#355;&#234;&#351;&#120101;</a></div>
          <nav class="navbar">
             <div class="navbar__wrapper">
@@ -35,6 +29,13 @@
                </ul>
             </div>
          </nav>
+      <div class="theme-switch-wrapper">
+         <span class="toggler-text">Switch Mode</span><span class="arrow">&#10551;</span>
+         <label class="theme-switch" for="checkbox">
+            <input type="checkbox" tabindex="-1" id="checkbox">
+            <div class="slider round"></div>
+         </label>
+      </div>
       </header>
       <main class="container">
          <section class="hero-section">
@@ -44,7 +45,10 @@
             <div class="myphoto__container"><img data-src="./Images/avatar.png" class="myphoto" alt="MYPhoto" style="width:320px;height:320px"></div>
          </section>
          <article id="project">
-            <h2 class="project-title">My Projects<a href="#project" tabindex="-1"  id="project-id">#</a></h2>
+            <header>
+               <h2 class="project-title">My Projects<a href="#project" tabindex="-1"  id="project-id">#</a></h2>
+            </header>
+         
             <div class="project-container">
                <section class="project__no1">
                   <figure class="project__figures">
@@ -108,6 +112,7 @@
             </div>
          </section>
       </main>
+      <aside>    <div class="mail"><a href="mailto:sahnitesh54@gmail.com">sahnitesh54@gmail.com </a></div></aside>
       <footer class="footer-sec torn_container torn_left torn_right" id="contact">
          <h3>Connect with me </b></h3>
          <ul>
@@ -120,7 +125,7 @@
          </ul>
          <strong><p>&#169; 2022 All rights reserved.</p></strong>
       </footer>
-      <div class="mail"><a href="mailto:sahnitesh54@gmail.com">sahnitesh54@gmail.com </a></div>
+  
    </body>
 </html>
 <script src="./Js/index.js"></script>

@@ -221,6 +221,7 @@ li{
     position: fixed;
     top:-1rem;
     right: 1rem;
+
     z-index:99999;
     transform: translateX(150%);
     cursor: url('/Images/cursor2.png'), auto;
