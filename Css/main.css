@@ -498,7 +498,7 @@ figcaption{
     background-position: 0 0, calc(10 * .5px) calc(10 * .5px)
 }
 .github-link:nth-child(1){
-    background-color: #FFCB2B;
+    background-color: #e6d39a;
 }
 .github-link:nth-child(2){
     background-color: #f5f7ec;
@@ -529,6 +529,11 @@ figcaption{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-name: gradients;
+}
+.footer-sec ul li span{
+    display: inline-block;
+    opacity: 0;
+    width: 0px;
 }
 .footer-sec p{
     margin: .5rem 0;
