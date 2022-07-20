@@ -415,7 +415,6 @@ li{
     gap:3rem;
     margin-bottom: 2rem;
     grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-    /* grid-template-areas: "first second third"; */
 }
 #project-d{
     font-size: 1rem;
@@ -440,9 +439,7 @@ li{
       box-shadow: 3px 3px var(--box-shadow-card);
       color: var(--text-color-secondary);
       overflow: hidden;
-      height: auto;
-
-      
+      height: auto;   
 }
 .project-container figcaption{
     text-align: center;
@@ -640,19 +637,6 @@ i{
     cursor:pointer;
 }
 
-
-/* .aboutme li{
-    writing-mode: vertical-lr;
-    display: inline;
-} */
-/* ------------Lazy----load---------- */
-.img,figure .img{
-    opacity: .2;
-    transition: .3s;
-}
-.img.fade{
-    opacity: 1;
-}
 
 
  /* media query */
