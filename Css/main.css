@@ -431,7 +431,7 @@ li{
     background-color: var(--text-bg);
     z-index: -1;
 }
-.project-container section{
+.project-container .project {
       padding-bottom: 1rem;
       background: var(--bg-secondary) ;
       border:1px solid var(--text-color-primary);
