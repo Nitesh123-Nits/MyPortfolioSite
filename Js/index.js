@@ -13,7 +13,7 @@ function switchTheme(e) {
 	e.target.checked ? (document.documentElement.setAttribute("data-theme", "dark"), localStorage.setItem("theme", "dark")) : (document.documentElement.setAttribute("data-theme", "light"), localStorage.setItem("theme", "light"))
 }
 currentTheme && (document.documentElement.setAttribute("data-theme", currentTheme), "dark" === currentTheme && (toggleSwitch.checked = !0)), toggleSwitch.addEventListener("change", switchTheme, !1);
-const imgs = document.querySelectorAll("img"),
+const imgs = document.querySelectorAll(".img"),
 	lazyLoad = e => {
 		new IntersectionObserver(((e, t) => {
 			e.forEach((e => {
