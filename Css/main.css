@@ -159,6 +159,7 @@ li{
     align-items: center;
 
   }
+
   .theme-switch 
   {
     display: inline-block;
@@ -179,6 +180,7 @@ li{
   .slider {
     background-color: rgb(0, 0, 0);
     inset:0;
+    display: block;
     cursor: pointer;
     position: absolute;
     transition: .4s;
