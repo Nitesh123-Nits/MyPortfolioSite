@@ -68,7 +68,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    text-rendering: optimizeSpeed;
+    /* text-rendering: optimizeSpeed; */
     line-height: 1.5;
     background: var(--bg-color) ;
     color: var(--text-color-primary);
@@ -427,7 +427,6 @@ li{
     bottom:var(--p-step-0);
     height: 1.2rem;
     left: 0px;
-    bottom: clamp(--title-p);
     width: 100%;
     background-color: var(--text-bg);
     z-index: -1;
