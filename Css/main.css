@@ -33,7 +33,7 @@
      --animation-color-2:#1a0221;
      --bg-secondary:#ededed;
      --p-step-0: clamp(1.00rem, calc(0.68rem + 1.40vw), 1.500rem);
-     --github-link:clamp(1.00rem, calc(0.68rem + 1.10vw), 1.300rem)
+     --github-link:clamp(1.00rem, calc(0.68rem + 1.10vw), 1.300rem);
      --text-color-secondary:rgb(25, 25, 25);
      --i-color:#7f0988;
      --i-step-0: clamp(1.25rem, calc(0.72rem + 2.35vw), 3.00rem);
@@ -272,7 +272,7 @@ li{
  /* navbar logo */
  .logo__wrapper{
    display: flex;
-   max-width:content;
+
    align-items: center;
    border: 1px solid var(--text-color-primary);
    border-radius: 83% 17% 85% 15% / 34% 66% 34% 66% ;
